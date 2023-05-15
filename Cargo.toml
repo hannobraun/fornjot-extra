@@ -6,6 +6,7 @@ members = [
     "crates/fj-host",
     "crates/fj-operations",
     "crates/fj-proc",
+    "crates/fj-window",
 
     "models/cuboid",
     "models/spacer",
@@ -20,6 +21,7 @@ default-members = [
     "crates/fj-host",
     "crates/fj-operations",
     "crates/fj-proc",
+    "crates/fj-window",
 ]
 
 

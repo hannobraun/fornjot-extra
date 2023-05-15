@@ -945,7 +945,7 @@ dependencies = [
  "fj-math",
  "fj-operations 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "fj-viewer",
- "fj-window",
+ "fj-window 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde",
  "tracing-subscriber",
 ]
@@ -1105,6 +1105,22 @@ dependencies = [
  "tobj",
  "tracing",
  "wgpu",
+]
+
+[[package]]
+name = "fj-window"
+version = "0.46.0"
+dependencies = [
+ "crossbeam-channel",
+ "egui-winit",
+ "fj-host 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-interop",
+ "fj-operations 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-viewer",
+ "futures",
+ "thiserror",
+ "tracing",
+ "winit",
 ]
 
 [[package]]
