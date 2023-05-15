@@ -652,7 +652,7 @@ dependencies = [
 name = "cuboid"
 version = "0.1.0"
 dependencies = [
- "fj 0.46.0",
+ "fj",
 ]
 
 [[package]]
@@ -914,20 +914,9 @@ version = "0.46.0"
 dependencies = [
  "anyhow",
  "backtrace",
- "fj-proc 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-proc",
  "serde",
  "serde_json",
-]
-
-[[package]]
-name = "fj"
-version = "0.46.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f4dc233ca4d00520ede012803b75e47ad4f12ce84252aca24a97b477d6e96eb5"
-dependencies = [
- "anyhow",
- "backtrace",
- "fj-proc 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -937,15 +926,15 @@ dependencies = [
  "anyhow",
  "clap",
  "figment",
- "fj 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj",
  "fj-export",
- "fj-host 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-host",
  "fj-interop",
  "fj-kernel",
  "fj-math",
- "fj-operations 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-operations",
  "fj-viewer",
- "fj-window 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-window",
  "serde",
  "tracing-subscriber",
 ]
@@ -970,26 +959,9 @@ version = "0.46.0"
 dependencies = [
  "cargo_metadata",
  "crossbeam-channel",
- "fj 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj",
  "fj-interop",
- "fj-operations 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "libloading 0.8.0",
- "notify",
- "thiserror",
- "tracing",
-]
-
-[[package]]
-name = "fj-host"
-version = "0.46.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8f5e18fd18c8e997464ee9fe47b1a4298af35de5948065da9073f0241f102cba"
-dependencies = [
- "cargo_metadata",
- "crossbeam-channel",
- "fj 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "fj-interop",
- "fj-operations 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-operations",
  "libloading 0.8.0",
  "notify",
  "thiserror",
@@ -1041,21 +1013,7 @@ dependencies = [
 name = "fj-operations"
 version = "0.46.0"
 dependencies = [
- "fj 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "fj-interop",
- "fj-kernel",
- "fj-math",
- "itertools",
- "thiserror",
-]
-
-[[package]]
-name = "fj-operations"
-version = "0.46.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6f12b2e0729312f11e1b072d92f6fe195d9a69cadb4fd04e1a0a6352eea5b3ba"
-dependencies = [
- "fj 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj",
  "fj-interop",
  "fj-kernel",
  "fj-math",
@@ -1070,17 +1028,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "serde",
- "syn 2.0.16",
-]
-
-[[package]]
-name = "fj-proc"
-version = "0.46.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "03f98065d3d4d837544aed7700f81c62c5f427355d6d61a334f7701040394a71"
-dependencies = [
- "proc-macro2",
- "quote",
  "syn 2.0.16",
 ]
 
@@ -1113,27 +1060,9 @@ version = "0.46.0"
 dependencies = [
  "crossbeam-channel",
  "egui-winit",
- "fj-host 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-host",
  "fj-interop",
- "fj-operations 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "fj-viewer",
- "futures",
- "thiserror",
- "tracing",
- "winit",
-]
-
-[[package]]
-name = "fj-window"
-version = "0.46.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4dff9049874ae4d461247d6a9122880cb2c42865238f5228898cd384203a4dbc"
-dependencies = [
- "crossbeam-channel",
- "egui-winit",
- "fj-host 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "fj-interop",
- "fj-operations 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fj-operations",
  "fj-viewer",
  "futures",
  "thiserror",
@@ -2726,7 +2655,7 @@ dependencies = [
 name = "spacer"
 version = "0.1.0"
 dependencies = [
- "fj 0.46.0",
+ "fj",
 ]
 
 [[package]]
@@ -2755,7 +2684,7 @@ dependencies = [
 name = "star"
 version = "0.1.0"
 dependencies = [
- "fj 0.46.0",
+ "fj",
 ]
 
 [[package]]
@@ -2833,7 +2762,7 @@ dependencies = [
 name = "test"
 version = "0.1.0"
 dependencies = [
- "fj 0.46.0",
+ "fj",
 ]
 
 [[package]]
