@@ -910,7 +910,7 @@ dependencies = [
 
 [[package]]
 name = "fj"
-version = "0.46.0"
+version = "0.46.1"
 dependencies = [
  "anyhow",
  "backtrace",
@@ -921,7 +921,7 @@ dependencies = [
 
 [[package]]
 name = "fj-app"
-version = "0.46.0"
+version = "0.46.1"
 dependencies = [
  "anyhow",
  "clap",
@@ -955,7 +955,7 @@ dependencies = [
 
 [[package]]
 name = "fj-host"
-version = "0.46.0"
+version = "0.46.1"
 dependencies = [
  "cargo_metadata",
  "crossbeam-channel",
@@ -1011,7 +1011,7 @@ dependencies = [
 
 [[package]]
 name = "fj-operations"
-version = "0.46.0"
+version = "0.46.1"
 dependencies = [
  "fj",
  "fj-interop",
@@ -1023,7 +1023,7 @@ dependencies = [
 
 [[package]]
 name = "fj-proc"
-version = "0.46.0"
+version = "0.46.1"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1056,7 +1056,7 @@ dependencies = [
 
 [[package]]
 name = "fj-window"
-version = "0.46.0"
+version = "0.46.1"
 dependencies = [
  "crossbeam-channel",
  "egui-winit",
