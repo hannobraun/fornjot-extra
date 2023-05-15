@@ -1,0 +1,70 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/fj",
+    "crates/fj-app",
+    "crates/fj-host",
+    "crates/fj-operations",
+    "crates/fj-proc",
+
+    "models/cuboid",
+    "models/spacer",
+    "models/star",
+    "models/test",
+
+    "tools/export-validator",
+]
+default-members = [
+    "crates/fj",
+    "crates/fj-app",
+    "crates/fj-host",
+    "crates/fj-operations",
+    "crates/fj-proc",
+]
+
+
+[workspace.package]
+version = "0.46.0"
+edition = "2021"
+
+description = """\
+Early-stage, next-generation, code-first CAD application. Because the world \
+needs another CAD program.\
+"""
+readme = "README.md"
+homepage = "https://www.fornjot.app/"
+repository = "https://github.com/hannobraun/fornjot"
+license = "0BSD"
+keywords = ["cad", "programmatic", "code-cad"]
+categories = ["encoding", "mathematics", "rendering"]
+
+
+[workspace.dependencies.fj]
+version = "0.46.0"
+
+[workspace.dependencies.fj-export]
+version = "0.46.0"
+
+[workspace.dependencies.fj-host]
+version = "0.46.0"
+
+[workspace.dependencies.fj-interop]
+version = "0.46.0"
+
+[workspace.dependencies.fj-kernel]
+version = "0.46.0"
+
+[workspace.dependencies.fj-math]
+version = "0.46.0"
+
+[workspace.dependencies.fj-operations]
+version = "0.46.0"
+
+[workspace.dependencies.fj-proc]
+version = "0.46.0"
+
+[workspace.dependencies.fj-viewer]
+version = "0.46.0"
+
+[workspace.dependencies.fj-window]
+version = "0.46.0"

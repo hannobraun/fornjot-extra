@@ -1,0 +1,13 @@
+[package]
+name = "export-validator"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+
+[dependencies]
+anyhow = "1.0.71"
+tempfile = "3.5.0"
+
+[build-dependencies]
+anyhow = "1.0.71"
