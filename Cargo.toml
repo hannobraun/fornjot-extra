@@ -35,7 +35,7 @@ needs another CAD program.\
 """
 readme = "README.md"
 homepage = "https://www.fornjot.app/"
-repository = "https://github.com/hannobraun/fornjot"
+repository = "https://github.com/hannobraun/fornjot-extra"
 license = "0BSD"
 keywords = ["cad", "programmatic", "code-cad"]
 categories = ["encoding", "mathematics", "rendering"]
