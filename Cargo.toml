@@ -26,7 +26,7 @@ default-members = [
 
 
 [workspace.package]
-version = "0.46.1"
+version = "0.46.2"
 edition = "2021"
 
 description = """\
@@ -42,14 +42,14 @@ categories = ["encoding", "mathematics", "rendering"]
 
 
 [workspace.dependencies.fj]
-version = "0.46.1"
+version = "0.46.2"
 path = "crates/fj"
 
 [workspace.dependencies.fj-export]
 version = "0.46.0"
 
 [workspace.dependencies.fj-host]
-version = "0.46.1"
+version = "0.46.2"
 path = "crates/fj-host"
 
 [workspace.dependencies.fj-interop]
@@ -62,16 +62,16 @@ version = "0.46.0"
 version = "0.46.0"
 
 [workspace.dependencies.fj-operations]
-version = "0.46.1"
+version = "0.46.2"
 path = "crates/fj-operations"
 
 [workspace.dependencies.fj-proc]
-version = "0.46.1"
+version = "0.46.2"
 path = "crates/fj-proc"
 
 [workspace.dependencies.fj-viewer]
 version = "0.46.0"
 
 [workspace.dependencies.fj-window]
-version = "0.46.1"
+version = "0.46.2"
 path = "crates/fj-window"
